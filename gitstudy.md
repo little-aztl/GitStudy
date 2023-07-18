@@ -45,6 +45,10 @@ git config --global user.email emailaddress
 
 `git commit -a -m "update file"`
 
+## 从版本库中恢复文件
+
+`git restore test.txt`  
+
 ## 查看版本库文件历史
 
 `git log`
@@ -53,4 +57,15 @@ git config --global user.email emailaddress
 
 `git reset --hard 版本号`
 
+## 创建分支
 
+```shell
+git branch b1
+git branch b2
+```
+
+## 查看分支
+
+```shell
+git branch b1
+```
