@@ -85,3 +85,47 @@ git branch -v
 ## 合并分支
 
 `git merge 分支名称`
+
+## 查看当前所有远程地址别名
+
+`git remote -v`
+
+## 添加别名
+
+`git remote add 别名 别名地址`
+
+## 推送本地分支到远程仓库
+
+一次只能推送一个**分支**
+
+`git push 别名 分支`
+
+## 拉取远程仓库到本地
+
+`git pull 别名 分支`
+
+## 克隆远程仓库到本地
+
+`git clone 远程地址`
+
+会自动创建别名
+
+## 跨团队合作
+
+用fork按钮
+
+然后pull request
+
+## Github SSH免密登录
+
+在用户文件夹将`.ssh`文件夹删除，然后在git的终端中打开
+
+输入
+
+`ssh-keygen -t rsa -C emailaddress`
+
+三下回车
+
+将生成的公钥粘贴到github网站的setting->SSH and GPG keys
+
+以后拉取的时候，直接用SSH
