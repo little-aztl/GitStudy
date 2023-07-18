@@ -82,4 +82,8 @@ git branch -v
 
 `get checkout -b 分支名称`
 
+## 合并分支
+
+`git merge 分支名称`
+
 
