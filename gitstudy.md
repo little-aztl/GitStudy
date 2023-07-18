@@ -67,5 +67,19 @@ git branch b2
 ## 查看分支
 
 ```shell
-git branch b1
+git branch -v
 ```
+
+## 切换分支
+
+`git checkout b1`
+
+## 删除分支
+
+`git branch -d b2`
+
+## 创建分支并直接切换到新的分支
+
+`get checkout -b 分支名称`
+
+
